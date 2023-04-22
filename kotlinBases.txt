@@ -1,0 +1,164 @@
+t /**
+ * You can edit, run, and share this code.
+ * play.kotlinlang.org
+ */
+
+var sumaTotal = ""
+var num1:Int = 5
+var num2:Int = 10
+var sumaEnteros: Int = 0
+    
+    
+fun main() {
+    
+    saludoInicialKotlin()
+    //1:sumaEnteros = sumaDeDosEnterosEnKotlin()
+    var totalSumaFuncion: Int = sumaDeDosEnterosEnKotlin()
+    //1: println(sumaEnteros)
+     println("$totalSumaFuncion")
+     
+     
+     var sumaFuncionParametros= sumaDeDosEnterosConParametros(a=2, b=2)
+   	println("$sumaFuncionParametros")
+    
+//     println("Hello, world!!!");
+//     println("aaaaahhhhhh!!!!!")
+//     println("saludos")
+//     println(".")
+//    // val    constante
+//    // var    variable
+   
+//    var primeraVariable = 5
+  
+//     var a = 10
+//     var b = 30
+    
+//     sumaTotal = a + b
+    
+//     println("Ésta es la variable de Kotlin, es $primeraVariable")
+//     println("Ésta es la suma de dos enteros: $sumaTotal")
+//     println(".")
+//     /* 
+//      * Variable tipo Long
+//      * Un long es mas grande que un Int,
+//      *  ocupa mas memoria como variable,
+//      * utilizarlo para numeros grandes
+//      */ 
+    
+//     var variableLong : Long = 400000000
+//     var restaDeLongs : Long = 0
+//     var variable1 = 33333L
+//     var variable2 = 44434343L
+    
+//     restaDeLongs = variable1 + variable2
+    
+//     println("La suma de longs es : $restaDeLongs")
+    
+//     println(".")
+//     /*
+//      * Float, son variables que aceptan decimales.packageAcepta hasta 6 decimales como numero
+//      */
+     
+//     var variableFloatTotal = 0F
+//     var variableFloat1 : Float = 45.6F
+//     var variableFloat2 = 20.2F
+    
+//     variableFloatTotal = variableFloat1 / variableFloat2
+    
+//     println("La división de los float es: $variableFloatTotal")
+//     println(".")
+    
+//     /*
+//      * Muy similares a los float pero soportan
+//      *  mas cantidad de decimales, hasta 14, 
+//      * eso sí, ocupara más memoria
+//     */
+    
+//     var totalDouble : Double = 0.0
+//     var variableDouble1 = 3.92929292
+//     var variableDouble2 = 45.888888
+    
+//     totalDouble = variableDouble1 * variableDouble2
+    
+//     println("Ésta es una multiplicación de double: $totalDouble")
+// 	   println(".")
+//     /*No resultooo, intentar de nuevo
+//     sumaMixta = variableDouble1 + variableFloat1
+//     println("suma conjunto raro $sumaMixta")
+//     */
+    
+//    //-------------------------
+    
+//     /*
+//      * VARIABLES ALFANUMERICAS
+//      */
+    
+//     /*
+//      * variable tipo Char
+//      * Soportan un solo caracter, y este puede ser lo que sea.
+//      * Es una variable muy muy pequeña
+//      */
+     
+//      var variableChar: Char = '2'
+//    	 var variableChar2: Char = '@'
+    
+//     println("Variables concatenadas: $variableChar $variableChar2")
+    
+//     println(".")
+    
+//     /*
+//      * Variable del tipo String
+//      * Es la que mas utilizamos cuando programamos,
+//      * soporta lo que sea....numeros tambien??
+//      */
+    
+//     var nombrePersona = "Clase Android"
+//     var nombrePersona2: String = "Clase android 2.0"
+    
+//     println(nombrePersona +" "+ nombrePersona2)
+//     println("$nombrePersona = $nombrePersona2")
+//     println(".")
+    
+}
+
+/*
+ * Funciones: contenedores de código, que permite
+ *  que nuestro codigo sea mas ordenado y funcional.
+ */
+ 
+ /* 
+  * Primer tipo de funcion que no retorna nada
+  */
+  
+ fun saludoInicialKotlin (){
+     
+    sumaEnteros = num1 + num2
+     
+    println("Hello, world!!!");
+    println("HEEEELPPPP!!!!!")
+    println("Estoy viva -.-U")
+    println("Nueva idea: Terapia de Código")
+    println("...")
+    println("esta es la suma: $sumaEnteros")
+    }
+ 
+ /*
+  * Segundo tipo, retorno de un valor
+  */
+ fun sumaDeDosEnterosEnKotlin() : Int{
+     
+     var numero1 = 589
+     var numero2 = 1000
+     
+     sumaEnteros = numero1 + numero2
+     
+     return sumaEnteros
+ }
+ 
+ fun sumaDeDosEnterosConParametros(a:Int , b:Int): Int{
+     
+     var numero1 = 0
+     var numero2 = 0
+     
+     return sumaEnteros 
+ }
